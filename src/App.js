@@ -1,12 +1,17 @@
+import React from 'react';
 import './App.css';
+import Images from './components/Images';
+
+
+
 
 function App() {
+
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">
-        bonjour world!
-      </h1>
+    <div className='App'>
+      <Images />
     </div>
+
   );
 }
 
