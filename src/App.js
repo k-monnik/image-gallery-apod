@@ -8,7 +8,7 @@ import Images from './components/Images';
 function App() {
 
   return (
-    <div className='App'>
+    <div className='container mx-auto'>
       <Images />
     </div>
 
